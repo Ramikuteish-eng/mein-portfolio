@@ -341,7 +341,7 @@ main p.ersteSatzReferenzen {
 
 .allblocke div.wp-block-button:nth-of-type(7) {
   grid-column: 2/ 3;
-  background: url(../img/bilder/bilder_background.jpg) no-repeat center;
+  background: url(../img/bilder/bilder_background.PNG) no-repeat center;
   background-size: cover;
   width: 100%;
   height: 100%;

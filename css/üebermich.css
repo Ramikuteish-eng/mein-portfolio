@@ -273,10 +273,10 @@ main {
 
 .pgroß {
   grid-column: 3/ 8;
-  grid-row: 3/ 6;
+  grid-row: 4/ 6;
   font: 500 60px "Playfair Display";
   margin: 0;
-  padding: 0;
+  padding-top: 0.71rem;
 }
 
 main h1 {
@@ -303,6 +303,7 @@ main h2 {
   grid-row: 7/ 8;
   font: 700 31px "Playfair Display";
   margin-top: 4rem;
+  color: var(--Cherry);
 }
 
 table {
