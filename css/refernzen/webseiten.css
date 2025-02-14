@@ -1,0 +1,399 @@
+@charset "UTF-8";
+
+
+/*############################################################################*/
+/* Fonts Angaben */
+/*############################################################################*/
+
+/*#######################################*/
+/* Lato Font */
+/*#######################################*/
+/* lato-300 - latin */
+@font-face {
+  font-display: swap;
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 300;
+  src: url('./fonts/lato/lato-v24-latin-300.woff2') format('woff2');
+}
+
+/* lato-regular - latin */
+@font-face {
+  font-display: swap;
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  src: url('./fonts/lato/lato-v24-latin-regular.woff2') format('woff2');
+}
+
+/* lato-700 - latin */
+@font-face {
+  font-display: swap;
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  src: url('./fonts/lato/lato-v24-latin-700.woff2') format('woff2');
+}
+
+/* lato-900 - latin */
+@font-face {
+  font-display: swap;
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 900;
+  src: url('./fonts/lato/lato-v24-latin-900.woff2') format('woff2');
+}
+
+
+/*#######################################*/
+/* Playfair Display Font */
+/*#######################################*/
+/* playfair-display-regular - latin */
+@font-face {
+  font-display: swap;
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 400;
+  src: url('./fonts/playfairdisplay/playfair-display-v37-latin-regular.woff2') format('woff2');
+}
+
+/* playfair-display-500 - latin */
+@font-face {
+  font-display: swap;
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 500;
+  src: url('./fonts/playfairdisplay/playfair-display-v37-latin-500.woff2') format('woff2');
+}
+
+/* playfair-display-600 - latin */
+@font-face {
+  font-display: swap;
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 600;
+  src: url('./fonts/playfairdisplay/playfair-display-v37-latin-600.woff2') format('woff2');
+}
+
+/* playfair-display-700 - latin */
+@font-face {
+  font-display: swap;
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 700;
+  src: url('./fonts/playfairdisplay/playfair-display-v37-latin-700.woff2') format('woff2');
+}
+
+/* playfair-display-800 - latin */
+@font-face {
+  font-display: swap;
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 800;
+  src: url('./fonts/playfairdisplay/playfair-display-v37-latin-800.woff2') format('woff2');
+}
+
+/* playfair-display-900 - latin */
+@font-face {
+  font-display: swap;
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 900;
+  src: url('./fonts/playfairdisplay/playfair-display-v37-latin-900.woff2') format('woff2');
+}
+
+
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+blockquote {
+  margin-top: 0;
+}
+
+img,
+video {
+  max-width: 100%;
+  height: auto;
+}
+
+
+
+/*############################################################################*/
+/* Farben */
+/*############################################################################*/
+:root {
+  --lavendergray: rgba(196, 201, 216, 1.0);
+  --Cherry: rgba(227, 34, 102, 1.0);
+  --Peacoat: rgba(54, 55, 66, 1.0);
+  --white: rgba(255, 255, 255, 1.0);
+}
+
+
+
+/*############################################################################*/
+/* Hintergrunde Angaben */
+/*############################################################################*/
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(14, 1fr);
+  width: 100%;
+  height: 100vh;
+  background: var(--lavendergray);
+  color: var(--white);
+}
+
+aside {
+  grid-column: 1/ 5;
+  grid-row: 1/ -1;
+  background: var(--Cherry);
+}
+
+.Peacoat {
+  grid-column: 1/ -1;
+  grid-row: 2/ 14;
+  background: var(--Peacoat);
+  margin: 0 60px;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(13, 1fr);
+}
+
+
+
+/*############################################################################*/
+/* hr */
+/*############################################################################*/
+hr {
+  grid-column: 2/ 3;
+  grid-row: 1/ -1;
+  color: var(--Cherry);
+  height: 100%;
+  margin-top: 0;
+}
+
+
+
+/*############################################################################*/
+/* Header Angaben */
+/*############################################################################*/
+header {
+  grid-column: 1/ -1;
+  grid-row: 1/ 2;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+}
+
+header nav {
+  grid-column: 6/ 10;
+  padding: 2rem 0 0 0;
+}
+
+nav ul {
+  display: flex;
+  font: 400 20px "Playfair Display";
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  list-style-type: none;
+}
+
+nav ul li a {
+  color: var(--white);
+  text-decoration: none;
+  padding: 0 0.5rem;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+nav ul li:nth-of-type(3) {
+  text-decoration: underline;
+  font-weight: bolder;
+  color: var(--Cherry);
+}
+
+nav ul li:nth-of-type(3) a{
+  color: var(--Cherry);
+}
+
+.logo {
+  grid-column: 11/ 12;
+}
+
+.allblocke {
+  grid-column: 5/ 11;
+  padding-left: 7.7rem;
+  display: flex;
+  gap: 1rem;
+  font: 400 15px "Playfair Display";
+  margin: 0;
+}
+
+.allblocke div a{
+  color: var(--white);
+  text-decoration: none;
+}
+
+.allblocke div a:hover {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.allblocke div:nth-of-type(1) {
+  text-decoration: underline;
+  font-weight: bolder;
+  color: var(--Cherry);
+}
+
+.allblocke div:nth-of-type(1) a {
+  color: var(--Cherry);
+}
+
+
+
+/*############################################################################*/
+/* Main Angaben */
+/*############################################################################*/
+main {
+  grid-column: 3/ 12;
+  grid-row: 2/ 12;
+  display: grid;
+}
+
+main h2 {
+  color: var(--Cherry);
+  grid-column: 1/ 12;
+  grid-row: 2/ 3;
+  font: 700 38px "Playfair Display";
+  margin: 2rem 0 0 0;
+}
+
+main p:nth-of-type(1) {
+  grid-column: 1/ 12;
+  grid-row: 3/ 4;
+  font: 300 16px "lato";
+  margin: 0;
+}
+
+main h3 {
+  grid-column: 1/ 12;
+  grid-row: 4/ 5;
+  font: 500 25px "Playfair Display";
+  color: var(--Cherry);
+  margin: 1rem 0 0 0;
+}
+
+main ul {
+  grid-column: 1/ 12;
+  grid-row: 5/ 6;
+  font: 300 16px "lato";
+  margin: 0 0 1rem 0;
+}
+
+main p:nth-of-type(2) {
+  grid-column: 1/ 12;
+  grid-row: 11/ 12;
+  font: 300 16px "lato";
+  margin: 0;
+}
+
+
+
+/*############################################################################*/
+/* Footer Angaben */
+/*############################################################################*/
+footer {
+  grid-column: 1/ -1;
+  grid-row: 12/ -1;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+}
+
+.vertical-text {
+  grid-column: 1/ 2;
+  grid-row: 1/ 3;
+  font: 500 21px "Playfair Display";
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  writing-mode: vertical-rl;
+  rotate: 180deg;
+  margin-left: 5rem;
+}
+
+footer ul {
+  grid-column: 6/ 9;
+  grid-row: 3/ -1;
+  display: flex;
+  font: 400 20px "Playfair Display";
+  margin: 0;
+  padding: 0.3rem 0 0 0;
+}
+
+footer ul li {
+  list-style-type: none;
+}
+
+footer ul li a {
+  color: var(--white);
+  text-decoration: none;
+  padding: 0 0.5rem;
+}
+
+footer ul li a:hover {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.icons {
+  grid-column: 9/ -1;
+  grid-row: 3/ -1;
+  margin-left: 3.1rem;
+  padding: 0 0 1.5rem 0;
+}
+
+.icons svg {
+  width: 25px;
+  height: 25px;
+  margin: 0 0 0 2rem;
+}
+
+.icons a:nth-of-type(1) svg {
+  color: rgb(135, 191, 144);
+}
+
+.icons a:nth-of-type(2) svg {
+  color: rgb(58, 87, 148);
+}
+
+.icons a:nth-of-type(3) svg {
+  color: rgb(10, 99, 188);
+}
