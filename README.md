@@ -39,6 +39,6 @@ Aktuell funktioniert das Design hauptsächlich für größere Bildschirme. Die A
 ## 📬 Kontakt
 
 📧 **E-Mail:** rami.kuteish@web.de  
-🔗 **LinkedIn:** [Mein Profil](www.linkedin.com/in/rami-kuteish-6aba45233)  
+🔗 **LinkedIn:** [Mein Profil](https://www.linkedin.com/in/rami-kuteish-6aba45233/)  
 
 ---
