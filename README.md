@@ -12,7 +12,7 @@ Dieses Portfolio wurde mit **HTML und CSS** erstellt und dient als meine persön
 
 - 🎨 **Modernes & ansprechendes Design**
 - ⚡ **Schnelle Ladezeiten & optimierte Performance**
-- 🔗 **Projekte mit Links zu Code & Live-Demos**
+- 🔗 **Projekte, die ich während der Umschulung gemacht habe**
 - 📞 **Kontaktformular für Anfragen**
 
 ## 🚀 To-Do-Liste
