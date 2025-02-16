@@ -4,7 +4,7 @@ Willkommen zu meinem Portfolio! 🚀 Hier präsentiere ich meine Arbeiten, Proje
 
 ## 📌 Über das Projekt
 
-Dieses Portfolio wurde mit **HTML, CSS** erstellt und dient als meine persönliche Webseite, um meine bisherigen Arbeiten vorzustellen.  
+Dieses Portfolio wurde mit **HTML und CSS** erstellt und dient als meine persönliche Webseite, um meine bisherigen Arbeiten vorzustellen.  
 
 🔗 **Live-Demo:** [Mein Portfolio ansehen](https://ramikuteish-eng.github.io/mein-portfolio/)
 
