@@ -213,7 +213,7 @@ header nav {
 
 nav ul {
   display: flex;
-  font: 400 1.25rem "Playfair Display";
+  font: 400 calc(1.25rem + 0.1vw) "Playfair Display";
   margin: 0;
   padding: 0;
 }

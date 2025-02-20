@@ -53,19 +53,19 @@
           <p>rami.kuteish@web.de</p>
           <br><br>
           <p>Bitte verwenden Sie das unterstehende Formular, um mir eine Nachricht zu senden:</p>
-          <form action="">
+          <form name="Kontaktformular" action="#" method="post">
             <h3>Kontaktformular:</h3>
-            <label for="validationCustom01" class="form-label">Vorname</label>
-            <input type="text" class="form-control" id="validationCustom01" required>
+            <label class="form-label" for="validationCustom01">Vorname</label>
+            <input class="form-control" type="text" id="validationCustom01" name="validationCustom01" required>
 
-            <label for="validationCustom02" class="form-label">Nachname</label>
-            <input type="text" class="form-control" id="validationCustom02" required>
+            <label class="form-label" for="validationCustom02">Nachname</label>
+            <input class="form-control" type="text" id="validationCustom02" name="validationCustom02" required>
 
             <label for="floatingInput">E-Mail</label>
-            <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+            <input class="form-control" type="email" id="floatingInput" name="floatingInput" placeholder="name@example.com">
 
-            <label for="exampleFormControlTextarea1" class="form-label">Nachricht</label>
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            <label class="form-label" for="exampleFormControlTextarea1">Nachricht</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" name="exampleFormControlTextarea1" rows="3"></textarea>
 
             <button type="submit">senden</button>
             <p>Ich werde Ihre Nachricht so schnell wie möglich beantworten. Vielen Dank!</p>
