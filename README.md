@@ -23,7 +23,8 @@ Dieses Portfolio wurde mit **HTML und CSS** erstellt und dient als meine persön
 - [ ] **Responsive Design für Mobile & Tablet anpassen** 📱  
 - [ ] **Dark Mode hinzufügen** 🌙  
 - [ ] **Blog-Bereich für Updates & Artikel** ✍️  
-- [ ] **Mehr Animationen & Interaktive Effekte** 🎭  
+- [ ] **Mehr Animationen & Interaktive Effekte** 🎭
+- [ ] **Funktionierendes Kontaktformular** 🎭  
 
 ## ❗ Wichtiger Hinweis
 
